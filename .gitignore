@@ -1,0 +1,19 @@
+# Entorno virtual
+venv/
+.env/
+.venv/
+
+# Caché de Python
+__pycache__/
+../__pycache__/
+
+*.py[cod]
+
+# Flake8
+.flake8
+
+# Generator
+data_generator.py
+data_generator_py09.py
+data_exporter.py
+./generated_data
