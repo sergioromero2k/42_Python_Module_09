@@ -11,7 +11,7 @@ contact reports using Pydantic v2.
 """
 
 
-class ContactType(Enum):
+class ContactType(str, Enum):
     # Enumeration of authorized alien contact types.
 
     RADIO = "radio"
